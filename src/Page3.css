@@ -1,0 +1,784 @@
+.grandParentDivP3
+{   position: relative;
+    margin-top:100px ;
+    margin-left: 200px;
+
+}
+
+.headerP3{
+display: flex;
+background-color: white;
+opacity: 100;
+width: 910px;
+height: 160px;
+box-shadow: 2px 2px 4px gray;
+
+
+}
+
+.theP3{
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: black;
+    margin-top: 70px;
+    transform: rotate(-90deg);
+    margin-left: 10px;
+
+}
+
+.sirenP3
+{
+    
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin-top:50px ;
+    margin-left: 50px;
+}
+
+.get_started
+{
+
+    width: 100px;
+    height: 40px;
+    margin-left: 630px;
+    margin-top: 70px;
+    border-color: aqua;
+    background-color: white;
+    color: aqua;
+}
+
+/* counter */
+
+.side_div{
+
+background-color:rgb(255, 255, 255);
+width:260px ;
+height:700px ;
+margin-top: 20px;
+
+
+}
+
+.hand{
+    position: absolute;
+    margin-left:30px ;
+    margin-top:400px ;
+    border: none;
+    background-color: rgb(253, 253, 253);
+}
+.share{
+
+    position: absolute;
+    margin-left:35px ;
+    margin-top:500px ;
+    border: none;
+    background-color: rgb(253, 253, 253);
+}
+
+.counter_pointer{
+position: absolute;
+color:rgb(136, 132, 132);
+margin-top:400px  ;
+margin-left:95px;
+font-size: 30px;
+font-weight: 800;
+
+
+}
+
+.share_artical{
+
+position: absolute;
+color:rgb(136, 132, 132);
+margin-top:500px  ;
+margin-left:90px;
+font-size: 23px;
+font-weight: 800;
+}
+
+/* MiddleDiv */
+
+
+.GrandParent_middleDiv
+{
+    margin-top:-700px ;
+    margin-left: 300px;
+    background-color: rgb(255, 255, 255);
+    width: 610px;
+    height: 1600px;
+}
+
+.five_ways_annimate
+{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Bodoni', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Tapestry', cursive;
+    font-size: 40px;
+}
+
+.face
+{
+  width:80px ;
+  height:80px ;
+}
+
+.name
+{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Bodoni', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Tapestry', cursive;
+    font-size: 20px;
+    margin-top:-60px ;
+    margin-left:90px ;
+
+
+
+}
+
+.date
+{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Bodoni', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Tapestry', cursive;
+    font-size: 15px;
+    margin-top:-20px ;
+    margin-left:90px ;
+    color:rgb(161, 161, 161);
+}
+.name_date_block{
+
+background-color: rgb(255, 255, 255);
+width: 400px;
+}
+
+.fb{
+width: 30px;
+height:30px ;
+border-radius:5px ;
+margin-top:-40px ;
+margin-left: 410px;
+margin-right: 5px;
+
+}
+.twitter{
+    width: 30px;
+    height:30px ;
+    border-radius:5px ;
+    margin-right: 5px;
+}
+.instagram{
+    width: 30px;
+    height:30px ;
+    border-radius:5px ;
+    margin-right: 5px;
+
+}
+.youtube{
+    width: 30px;
+    height:30px ;
+    border-radius:5px ;
+}
+
+.socialMedia
+{
+    margin-top: -60px;
+    margin-left: 20px;
+}
+
+.reactlogo
+{
+    width:610px ;
+    border-radius:5px ;
+    margin-top: 30px;
+}
+
+.animation_para{
+
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Bodoni', serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: -160px;
+
+}
+
+.screenshot
+{
+    width: 610px;
+    height:500px ;
+}
+.react_button
+{
+    width:90px ;
+    height:30px ;
+    margin-right: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: lightgray;
+    color: gray;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.js_button
+{
+    width:90px ;
+    height:30px ;
+    margin-right: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: lightgray;
+    color: gray;
+    border-radius: 5px;
+}
+
+.animate_button
+{
+    width:90px ;
+    height:30px ;
+    margin-right: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: lightgray;
+    color: gray;
+    border-radius: 5px;
+}
+
+.hand1
+{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: -300px;
+    border: none;
+    background-color: white;
+    
+}
+.counter_pointer1
+{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 30px;
+    color: gray;
+}
+
+.name_date_block1
+{
+    margin-top: 100px;
+}
+
+
+/* LowerDiv */
+
+.parentDiv{
+
+    position: absolute;
+    width: 1330px;
+    height: 900px ;
+    margin-left:-200px;
+
+}
+
+.more_the_siren
+{
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.compiler
+{
+    display: flex;
+    align-content: space-between;
+}
+.food2
+{
+    width: 400px;
+    height:200px ;
+    border-radius: 5px;
+}
+
+.pic3
+{
+    width: 400px;
+    height:200px ;
+    margin-top: 0px;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+
+.fit7
+{
+    width: 400px;
+    height:200px ;
+    margin-left: 230px;
+    border-radius: 5px;
+    
+}
+
+.text1
+{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -120px;
+}
+
+.text2
+{
+    margin-top: 220px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -60px;
+}
+
+.text3
+{
+    margin-top: 0px;
+  margin-left: 100px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.name_date_block2{
+    
+    margin-left: 70px;
+}
+.name_date_block3{
+
+    margin-left: 250px;
+}
+
+
+/* Media Screen */
+
+@media screen and (min-width: 360px) and (max-width: 740px)
+{
+
+    /* Header Mediaquery */
+
+
+    .grandParentDivP3
+    {   position: relative;
+        margin-top:10px ;
+        margin-left: 200px;
+        height: 300px;
+    
+    }
+    
+    .headerP3{
+    display: flex;
+    background-color: white;
+    opacity: 100;
+    width: 325px;
+    height: 70px;
+    box-shadow: 2px 2px 4px gray;
+    margin-left: -204px;
+    position: sticky;
+    top: 0;
+    transition: 1s ease;
+    background-attachment: fixed;
+    
+    
+    
+    
+    }
+    
+    .theP3{
+        position: absolute;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Oswald', sans-serif;
+        font-size: 10px;
+        color: black;
+        margin-top: 30px;
+        transform: rotate(-90deg);
+        margin-left: 15px;
+    
+    }
+    
+    .sirenP3
+    {
+        
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        margin-top:14px ;
+        margin-left: 30px;
+    }
+    
+    .get_started
+    {
+    
+        width: 60px;
+        height: 30px;
+        margin-left: 160px;
+        margin-top: 25px;
+        border-color: aqua;
+        background-color: white;
+        color: aqua;
+        font-size: x-small;
+    }
+
+
+    /* CounterMedia query */
+
+
+    .side_div{
+
+    display: none;
+    visibility: hidden;
+        
+        
+        }
+        
+        .hand{
+            display: none;
+            visibility: hidden;
+        }
+        .share{
+        
+            display: none;
+            visibility: hidden;
+        }
+        
+        .counter_pointer{
+            display: none;
+            visibility: hidden;
+        
+        
+        }
+        
+        .share_artical{
+        
+            display: none;
+            visibility: hidden;
+        }
+
+
+
+
+
+
+
+    /* MiddleDivMediaquery */
+
+
+.GrandParent_middleDiv
+{
+    margin-top:-700px ;
+    margin-left: 300px;
+    background-color: rgb(255, 255, 255);
+    width: 310px;
+    height: 1600px;
+}
+
+.five_ways_annimate
+{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Bodoni', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Tapestry', cursive;
+    font-size: 20px;
+    margin-left: -485px;
+    margin-top: 720px;
+}
+
+.face
+{
+  width:50px ;
+  height:50px ;
+}
+
+.name
+{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Bodoni', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Tapestry', cursive;
+    font-size: 10px;
+    margin-top:-40px ;
+    margin-left:60px ;
+
+
+
+}
+
+.date
+{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Bodoni', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Tapestry', cursive;
+    font-size: 10px;
+    margin-top:-10px ;
+    margin-left:60px ;
+    color:rgb(161, 161, 161);
+}
+.name_date_block{
+
+background-color: rgb(255, 255, 255);
+width: 300px;
+margin-left: -480px;
+margin-top: 60px;
+}
+
+.fb{
+position: absolute;
+width: 25px;
+height:25px ;
+border-radius:5px ;
+margin-top:-30px ;
+margin-left: -100px;
+margin-right: 20px;
+
+}
+.twitter{
+    position: absolute;
+    width: 25px;
+    height:25px ;
+    border-radius:5px ;
+ 
+    margin-left: -70px;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+.instagram{
+    position: absolute;
+    width: 25px;
+    height:25px ;
+    border-radius:5px ;
+   
+    margin-left: -40px;
+    margin-top: -30px;
+    margin-right: 20px;
+
+}
+.youtube{
+    position: absolute;
+    width: 25px;
+    height:25px ;
+    border-radius:5px ;
+    margin-top:-30px ;
+    margin-left: -10px;
+    margin-right: 10px;
+    
+}
+
+.socialMedia
+{
+    margin-top: -60px;
+    margin-left:-380px;
+    
+}
+
+.reactlogo
+{
+    width:320px ;
+    border-radius:5px ;
+    margin-top: 70px;
+    margin-left: -500px;
+}
+
+.animation_para{
+
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Bodoni', serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 9px;
+    font-weight: 800;
+    margin-left: -600px;
+
+}
+
+.screenshot
+{
+    width: 330px;
+    height:300px ;
+    margin-left: -510px;
+}
+.react_button
+{
+    position: absolute;
+    width:80px ;
+    height:30px ;
+    margin-left: -310px;
+    border: none;
+    font-size: 14px;
+    background-color: lightgray;
+    color: gray;
+    border-radius: 5px;
+    margin-top: 310px;
+
+}
+
+.js_button
+{
+    position: absolute;
+    width:80px ;
+    height:30px ;
+    margin-left: -200px;
+    border: none;
+    font-size: 14px;
+    background-color: lightgray;
+    color: gray;
+    border-radius: 5px;
+    margin-top: 310px;
+}
+
+.animate_button
+{
+    position: absolute;
+    width:80px ;
+    height:30px ;
+    margin-left: -90px;
+    border: none;
+    font-size: 14px;
+    background-color: lightgray;
+    color: gray;
+    border-radius: 5px;
+    margin-top: 310px;
+}
+
+.hand1
+{
+    position: absolute;
+    margin-top: 365px;
+    margin-left: -300px;
+    border: none;
+    background-color: white;
+    
+}
+.counter_pointer1
+{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -420px;
+    font-size: 25px;
+    color: gray;
+}
+
+.name_date_block1
+{
+  
+  
+    margin-left: -480px;
+    margin-top: 150px;
+}
+
+/* LowerDiv Media */
+
+
+.parentDiv{
+
+    position: absolute;
+    width: 1330px;
+    height: 800px ;
+    margin-left:-200px;
+
+}
+
+.more_the_siren
+{
+    position: absolute;
+    margin-top: -600px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 10px;
+
+
+}
+
+.compiler
+{
+    
+   display: inline-block;
+    align-content: space-between;
+    height: fit-content;
+}
+.food2
+{
+    position: absolute;
+    width: 100px;
+    height:100px ;
+    border-radius: 5px;
+    margin-top: -580px;
+    margin-left: 220px;
+}
+
+.pic3
+{
+    position: absolute;
+    width: 100px;
+    height:100px ;
+    border-radius: 5px;
+    margin-top: -480px;
+    margin-left: 220px;
+   
+}
+
+.fit7
+{
+    position: absolute;
+    width: 100px;
+    height:100px ;
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: -370px;
+    
+    
+}
+
+.text1
+{
+    position: absolute;
+    margin-top: -610px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -130px;
+}
+
+.text2
+{
+    position: absolute;
+    margin-top:-510px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -130px;
+}
+
+.text3
+{
+  position: absolute;
+  margin-top: -400px;
+  margin-left: -130px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.name_date_block2{
+    
+    margin-left: 70px;
+   
+    visibility: hidden;
+}
+.name_date_block3{
+
+    margin-left: 250px;
+    visibility: hidden;
+}
+
+.hr{
+    visibility: hidden;
+}
+
+
+}
+                                
