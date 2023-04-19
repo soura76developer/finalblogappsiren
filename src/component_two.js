@@ -10,7 +10,8 @@ import Arrow from "./images/arrow.svg"
 
 const Component_two=()=>
 {
-    return(
+    const apple=[{name:"RAJ SAHA",src:Pic4,header:"Joshua Tree Overnight Adventure",content:"Gujarat is vastly underrated and it’s a mystery to us why the region isn’t more well-known as a tourist destination. It has a plethora of temples and palaces",date:"/ August 21 2017",class:"2",section:"DEMY 1"},{name:"RAJU SAHA",src:Pic5,header:"Joshua Tree Overnight Adventure",content:"Gujarat is vastly underrated and it’s a mystery to us why the region isn’t more well-known as a tourist destination. It has a plethora of temples and palaces",date:"/ August 21 2017",class:"24",section:"DEMY 41"},{name:"RAJ SHARMA",src:Pic1,header:"Joshua Tree Overnight Adventure",content:"Gujarat is vastly underrated and it’s a mystery to us why the region isn’t more well-known as a tourist destination. It has a plethora of temples and palaces",date:"/ August 21 2017",class:"26",section:"DEMY 34"},]
+     return(
     <>
             {/* <div className="the_latest"> <p className="the_latest_D">The Latest</p> </div>
             <div className="small_col"></div>
@@ -79,11 +80,33 @@ const Component_two=()=>
              */}
 
             <div className="row mt-3">
-                <div className="col-md-1"></div>
-                <div className="col-md-10 ms-5 mt-2">
+                <div className="col-md-12 mt-2">
                     <p className="the_latest_D  mb-0">The Latest</p><br/>
                 </div>    
             </div> 
+            <div className="row p-1 article_over_view">
+                {apple.map((value)=>(
+                 
+                    <div className="col-md-4 text-center">
+                         <img src={value.src} alt="" className="latest_img_style" />
+                         <div className="row justify-content-center">
+                            <div className="col-md-12">
+                                <p className="c2_heading_one">{value.header}</p>
+                            </div>
+                            <div className="col-md-10">
+                                <p className="c2_content">{value.content}</p>
+                            </div>
+                            <div className="col-md-3 text-end">
+                                <p className="c2_travel">Travel</p>
+                            </div>
+                            <div className="col-md-5 text-start">
+                                <p>{value.date}</p>
+                            </div>
+                         </div>
+                       
+                    </div>
+                ))}
+            </div>
           
 </>
 )

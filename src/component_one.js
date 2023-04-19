@@ -12,17 +12,15 @@ const Component_one=()=>
     <>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-7 text-end">
+                    <div className="col-md-8 text-center">
                         < img src= {Pic1} alt="" className="pic1_D" />
                     </div>
                     <div className="col-md-4">
                         <div className="row">
-                            <div className="col-md-12 p-2">
+                            <div className="col-md-12 text-center p-2">
                                 <img src= { Pic2} alt="" className="pic2_D" />
                             </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-12 p-2">
+                            <div className="col-md-12 text-center p-2">
                                  <img src= { Pic2} alt="" className="pic2_D" />
                             </div>
                         </div>

@@ -85,14 +85,14 @@
 
 .pic1_D
 {
-    width: 45vw;
+    width: 65vw;
     height: 50vh;
     border-radius: 5px;
 }
 
 .pic2_D
 {
-    width: 25vw;
+    width: 30vw;
     height: 22vh;
     border-radius: 5px;
 }
@@ -124,19 +124,31 @@
   font-weight: 700;
 }
 
-
+.latest_img_style{
+    width:28vw;
+    height:28vh;
+    border-radius: 10px;
+}
 
 .the_latest_D
 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: overline;
+    text-decoration:overline;
     text-decoration-color: rgb(230, 94, 45);
-   
-
 }
 
+.c2_heading_one{
+    font-size:larger;
+    font-weight: 700;
+}
+.c2_content{
+    color:gray;
+}
+.c2_travel{
+    font-weight: 600;
+}
 .same1
 {
     position: absolute;
@@ -1965,7 +1977,7 @@ font-weight: 600;
     }
     .pic1_D{
 
-        width:42%;
+        width:100%;
         height:50% ;
 
     }
