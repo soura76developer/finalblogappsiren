@@ -1,27 +1,34 @@
 import "./App.css" ;
 const Header=()=>
 {
-    // function Enter()
-    // {
-    //     document.getElementById('enter1').style.color="red"
-    // }
-
     return(
     <>
-            <div className="body_allign">
-            <div  className="the"> <p className="the_D">The</p> </div>
-            <div className="siren"> <p  className="siren_D">Siren</p> </div>
-            <div className="br">  </div>
-            
-            <div className="home"><a href="/home"><button className="all_D">Home</button></a></div>
-            <div className="bollywood"><a href="/bollywood"><button className="all_D">Bollywood</button></a></div>
-            <div className="technology"><a href="/technology"><button className="all_D">Technology</button></a></div>
-            <div className="hollywood"><a href="/holly"><button className="all_D">Hollywood</button></a></div>
-            <div className="fitness"><a href="/fit"><button className="all_D">Fitness</button></a></div>
-            <div className="food"><a href="/food"><button className="all_D">Food</button></a></div>
-
-            
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="row justify-content-center">
+                            <div className="col-md-3 text-center">
+                                <p  className="siren_D" ><span className="the_D">The</span>Siren</p>
+                            </div>
+                        </div>
+                        <div className="row justify-content-center">
+                            <div className="col-md-1"><a href="/home" className="all_D"><span>Home</span></a></div>
+                            <div className="col-md-1"><a href="/bollywood" className="all_D"><span >Bollywood</span></a></div>
+                            <div className="col-md-1"><a href="/technology" className="all_D"><span>Technology</span></a></div>
+                            <div className="col-md-1"><a href="/holly" className="all_D"><span >Hollywood</span></a></div>
+                            <div className="col-md-1"><a href="/fit" className="all_D"><span>Fitness</span></a></div>
+                            <div className="col-md-1"><a href="/food" className="all_D"><span >Food</span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-12" >
+                        <hr/>
+                    </div>
+                </div>
             </div>
+
+
     </>
     )
 

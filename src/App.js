@@ -2,7 +2,7 @@
 import "./App.css"
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import Header from "./header.js";
-import BigImage from "./bigImage";
+import Component_one from "./component_one.js";
 // import LowerPhoto from "./lowerPhoto";
 import Bollywood from "./Bollywood";
 import P2 from "./p2.js"
@@ -21,17 +21,16 @@ import Page3 from "./component/Page3.js"
 
 
 // have to import test,2,3
-
-function App()
+const App=()=>
 {
   return(
 
     <BrowserRouter>
            
         <Header />
-        
+    
         <Routes>
-        <Route path="/home" element={<BigImage />} />
+        <Route path="/" element={<Component_one />} />
         <Route path="/bollywood" element={<Bollywood />} />
         <Route path="/bollyPic" element={<BollyPic />} />
         <Route path="/technology" element={<Technology />} />
@@ -43,18 +42,13 @@ function App()
         <Route path="/fit" element={<Fit />} />
         <Route path="/fitpic" element={<FitPic />} />
         <Route path="/reactanimation" element={<Page3 />} />
-
         <Route path="p1/p2" element={<P2 />} />
+
         </Routes>
 
 
        
     </BrowserRouter>
-    
-    
-
-
-
 
   )
 }

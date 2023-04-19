@@ -8,12 +8,12 @@ import Arrow from "./images/arrow.svg"
 
 
 
-const LowerPhoto=()=>
+const Component_two=()=>
 {
     return(
     <>
-     <div className="the_latest"> <p className="the_latest_D">The Latest</p> </div>
-    <div className="small_col"></div>
+            {/* <div className="the_latest"> <p className="the_latest_D">The Latest</p> </div>
+            <div className="small_col"></div>
 
             <div className="same1">
                 <img src={Pic5} alt="" className="same_D" /> 
@@ -76,10 +76,17 @@ const LowerPhoto=()=>
 
                 <img src= {Pic5} alt="" class="IceShip"/>  
             </div>
-            
+             */}
+
+            <div className="row mt-3">
+                <div className="col-md-1"></div>
+                <div className="col-md-10 ms-5 mt-2">
+                    <p className="the_latest_D  mb-0">The Latest</p><br/>
+                </div>    
+            </div> 
           
 </>
 )
 }
 
-export default LowerPhoto;
+export default Component_two;

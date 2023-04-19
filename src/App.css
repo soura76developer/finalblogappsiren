@@ -1,50 +1,25 @@
-.all
+/* .all
 {
   margin-left: 50px;
-}
+} */
 
 
-.the
-{
-
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    margin-left: 550px;
-    margin-top: 30px;
-    background-color: none;
-    transform: rotate(-90deg);
-}
-   
 .the_D
 {
-    font-size:x-large;
+    font-size:large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+    transform: rotate(-90deg);
 }  
 
-.siren
-{
-    position: absolute;
-    margin-left: 610px;
-    margin-top: -18px;
-}
 .siren_D
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
     font-weight: 900;
 }
-
 .br
 {
- position: absolute;
- width: 910px;
  height:1.7px;
- margin-top:150px ;
- margin-left: 200px;
- background-color:rgb(195, 191, 191);
-
 }
 
 .home
@@ -53,8 +28,6 @@
     height:20px ;
     margin-left:250px  ;
     margin-top: 110px ;
-    
-
 }
 .bollywood
 {   position: absolute;
@@ -106,46 +79,21 @@
   border: none;
   background-color: white;
   color: black;
+  text-decoration:none;
 
 }
 
-
-
-
-
-.pic1
-{   position: absolute;
-    width:800px ;
-    height:500px;
-    margin-top: 180px;
-    margin-left: 200px;
-
-
-}
 .pic1_D
 {
-    width: 600px;
-    height: 350px;
+    width: 45vw;
+    height: 50vh;
     border-radius: 5px;
-
-
-}
-
-.pic2
-{
-    position: absolute;
-    width:800px ;
-    height:500px;
-    margin-top: 180px;
-    margin-left: 810px;
-
-
 }
 
 .pic2_D
 {
-    width: 300px;
-    height: 170px;
+    width: 25vw;
+    height: 22vh;
     border-radius: 5px;
 }
 
@@ -177,32 +125,17 @@
 }
 
 
-.the_latest
-{
-    position: absolute;
-    width: 300px;
-    height: 50px;
-    margin-left: 200px;
-    margin-top: 550px;
 
-}
 .the_latest_D
 {
     font-size: 25px;
     font-weight: 400;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: overline;
+    text-decoration-color: rgb(230, 94, 45);
+   
 
 }
-.small_col
-{
-    position: absolute;
-    background-color: rgb(230, 94, 45);
-    width: 50px;
-    height:2px;
-    margin-left:200px ;
-    margin-top: 610px;
-}
-
 
 .same1
 {

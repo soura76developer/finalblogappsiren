@@ -23,7 +23,8 @@ const Technology=()=>
      <img src= { Tech1 } alt="" className="chota1_pic_D_B" />            
 </div>
 
-<div className="br3_B">  </div>                                   
+<div className="br3_B">  </div>      
+                    
 
 <div className="chota2_pic_B">
     <img src={ Tech2 }alt="" className="chota2_pic_D_B" />           
@@ -243,8 +244,6 @@ const Technology=()=>
     {/* {`Travel / August 21,20227`} */}
 </pre>
 </div>
-
-
 <div className="catch11_B">                                         
 <p className="catch1_D_B">Catch waves with</p>
 </div>
@@ -256,12 +255,6 @@ const Technology=()=>
  {/* {`Travel / August 21,20227 `} */}
 </pre>
 </div>
-
-
-
-
-
-
 
 
 
