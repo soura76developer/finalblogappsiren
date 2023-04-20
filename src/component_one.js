@@ -5,11 +5,13 @@ import "./App.css"
 import Component_two from "./component_two";
 import Chotapackets from "./Chotapackets";
 import Footer from "./Footer.js";
+import Header from "./header.js"
 
 const Component_one=()=>
 {
     return(
     <>
+            <Header />
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-8 text-center">

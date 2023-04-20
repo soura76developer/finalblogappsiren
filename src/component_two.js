@@ -5,11 +5,23 @@ import Pic6 from "./images/Pic6.jpg"
 import Pic1 from "./images/Pic1.jpg"
 import JoshuaText from "./JoshuaText";
 import Arrow from "./images/arrow.svg"
+import React, { useState,useEffect} from 'react';
 
 
 
 const Component_two=()=>
 {
+    // api call using fetch and get api
+    //--------------------Use State---------------------
+    const[getdata,setGetData]=useState([]);
+    //-------------------Use effect --------------------
+    useEffect(()=>{
+        fetch('https://jsonplaceholder.typicode.com/posts?_limit=10').then((response)=>response.json()).then((data)=>{console.log(data);setGetData(data)}).catch((err) => {
+            console.log("why?");
+         });
+    },[])
+    // api call using fetch and get api
+
     const apple=[{name:"RAJ SAHA",src:Pic4,header:"Joshua Tree Overnight Adventure",content:"Gujarat is vastly underrated and it’s a mystery to us why the region isn’t more well-known as a tourist destination. It has a plethora of temples and palaces",date:"/ August 21 2017",class:"2",section:"DEMY 1"},{name:"RAJU SAHA",src:Pic5,header:"Joshua Tree Overnight Adventure",content:"Gujarat is vastly underrated and it’s a mystery to us why the region isn’t more well-known as a tourist destination. It has a plethora of temples and palaces",date:"/ August 21 2017",class:"24",section:"DEMY 41"},{name:"RAJ SHARMA",src:Pic1,header:"Joshua Tree Overnight Adventure",content:"Gujarat is vastly underrated and it’s a mystery to us why the region isn’t more well-known as a tourist destination. It has a plethora of temples and palaces",date:"/ August 21 2017",class:"26",section:"DEMY 34"},]
      return(
     <>

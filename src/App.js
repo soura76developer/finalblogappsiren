@@ -27,8 +27,8 @@ const App=()=>
 
     <BrowserRouter>
            
-        <Header />
-    
+        {/* <Header /> */}
+        {/* <Component_one /> */}
         <Routes>
         <Route path="/" element={<Component_one />} />
         <Route path="/bollywood" element={<Bollywood />} />
